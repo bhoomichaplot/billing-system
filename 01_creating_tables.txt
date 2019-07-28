@@ -1,0 +1,72 @@
+
+cutomer_master
+meter_reading_master
+slab
+billing_master
+cst_payment_masterb
+
+create table customer_master (
+k_no int,
+meter_no int,
+first_name varchar(50),
+last_name varchar(50),
+address varchar(100),
+p_no int,
+category varchar(5),
+area int,
+CONSTRAINT c_m_pk primary key (k_no),
+CONSTRAINT c_m_fk foreign key (category) 
+REFERENCES slab(category)
+);
+
+create table meter_reading_master(
+k_no int,
+reading_date date not null,
+reading int,
+reading_month date,
+CONSTRAINT m_r_pk primary key (k_no,reading_month),
+CONSTRAINT m_r_fk foreign key (k_no) 
+REFERENCES customer_master(k_no)
+);
+
+create table slab(
+category varchar(5),
+sanction_laod int,
+security_deposit int,
+rate varchar(10),
+primary key (category)
+);
+
+create table cst_acts_master(
+k_no int,
+payment_date  date,
+amount_credited int,
+CONSTRAINT c_act_pk primary key (k_no,payment_date),
+CONSTRAINT c_act_fk foreign key (k_no) 
+REFERENCES customer_master(k_no)
+);
+
+create table billing_master
+(k_no int,
+billing_date date,
+billing_month date,
+consumption int,
+amount int,
+due_date date,
+amount_after_due_date int,
+CONSTRAINT b_m_pk primary key (k_no,billing_month),
+CONSTRAINT b_m_fk foreign key (k_no)
+REFERENCES customer_master(k_no)
+);
+
+
+.........................................................................................................
+
+drop table customer_master;
+drop table meter_reading_master;
+drop table billing_master;
+
+.....................................................................................................
+
+alter table customer_master modifiy column_name (p_no number(15));
+create table m' as(select * from mrm2);

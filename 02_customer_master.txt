@@ -1,0 +1,55 @@
+insert all 
+into customer_master values(019387,1901,'Rakhi','Chowk','Simla',9157728440,'GEN',434087)
+into customer_master values(023868,1902,'Mr.Chirag','Varughese','23 RachelGarh Vadodara',0422247738,'BPL',521568)
+into customer_master values(038987,1903,'Dr.Naina','Bajwa','11 DiptiGarh Bhubhaneshwar',022514989,'MIP',316387)
+into customer_master values(041784,1904,'Dr.Ekbal',' Viswanathan','4 Ajinkya Nagar Ahmedabad',9161780389,'GEN',418884)
+into customer_master values(053296,1905,'Mr.Kailash','Sampath','53 Prerna Apartment Chandigarh',0294629692,'BPL',392496)
+into customer_master values(067981,1906,'Miss Vijay','Savant','85 Binoya Vila Cyber C Bhopal',0944027579,'GEN',479081)
+into customer_master values(075147,1907,'Prof.Saurabh','Monin','71 Vijay AmritPur Rajkot',0619516851,'SIP',437447)
+into customer_master values(087134,1908,'Mr.Pradeep','Gade','61 Alpa Villas Deccan Gymkhana Agra',695375511,'BPL',237734)
+into customer_master values(098016,1909,'Mrs.Owais','Ramaswamy','85 Fatima Villas Rachel Nagar Hisar',554199980,'BPL',313416)
+into customer_master values(102926,1910,'Prof.Sneha','Mitra','86 Model Town Vishakhapattanam',9117023629,'GEN',389749)
+into customer_master values(113549,1911,'Ms. Binoya','Hemendra','62 Jatin Apartment Churchgate Meerut',912248355,'BPL',538426)
+into customer_master values(124067,1912,'Dr. Prasoon','Ghose','20 Malad Thiruvananthapuram' ,0743924440,'SIP',265067)
+into customer_master values(137272,1913,'Dr. Sohail','Jain','Edwin 76 Sharad Apartments Aundh Ratlam' ,9105083172,'GEN',312572)
+into customer_master values(149566,1914,'Dr. Manish','Khare','53Binoya Apartments Vadodara',0920747995,'GEN',328666)
+into customer_master values(151346,1915,'Prof. Mustafa','Subramanian','57 DhirajGunj Jaipur',0957370513,'SIP',305246)
+into customer_master values(161575,1916,'Ms. Arjun','Dhiraj Roy','45 Borivali Chandigarh',9165335105,'BPL',524175)
+into customer_master values(170797,1917,'Mr. Baalkrishan','Sridhar','64 Virar Pondicherry',9152065107,'GEN',528497)
+into customer_master values(187745,1918,'Prof. Niyati','Baldev','84 Akanksha Heights Kharadi Ludhiana' ,098156077,'BPL',459945)
+into customer_master values(190511,1919,'Dr. Elias','Pratap Rastogi','45 Afreen Chowk Delhi',9126087605,'MIP',304111)
+into customer_master values(209899,1920,'Dr. Sunita','Baber Jacob','22 Nagma Heights Faridabad',916920098,'BPL',335199)
+into customer_master values(215751,1921,'Prof.Venkat','Mohan','86Prasoon Height Pondicherry',055693957,'GEN',390951)
+into customer_master values(224235,1922,'Prof. Amir','Dara','41 KushalGarh Indore ',63672669,'SIP',379135)
+into customer_master values(234174,1923,'Prof. Nawab','Owais Raju','54 Heights Runjhn NagarSimla',96622310,'MIP',592874)
+into customer_master values(240340,1924,'Prof. Kirti','Ramesh','25 Harpreet Society Rajkot',018037603,'HT',355140)
+into customer_master values(258047,1925,'Ms. Marlo',' Soni','47 Vikhroli Ludhiana',088791480,'BPL',277847)
+into customer_master values(269028,1926,'Mr. Darpan',' Chia','44 Marlo Heights Thiruvananthapuram',9108738001,'GEN',523298)
+into customer_master values(278100,1927,'Mrs.Sukrti','Arvind','40Jawahar Height Kalpit Pondicherry',6884390081,'GEN',540200)
+into customer_master values(287964,1928,'Dr. Deepesh','Lal Chacko','60 MohitGarh Jabalpur' ,9128424679,'HT',179164)
+into customer_master values(292933,1929,'Dr. Ghalib',' Loke','37 Marathahalli Mumbai',0736257429,'GEN',180933)
+into customer_master values(309982,1930,'Prof. Naseer',' Rout','69 Damini Apartment Dadar Mumbai' ,9170561699,'GEN',204182)
+select * from dual;
+
+
+
+
+
+
+.............
+
+
+insert all 
+into customer_master into customer_master values(053296,1906,'Mr.Kfilash','Sampath','53 Prerna Apartment Chandigarh',02946296932,'BPL',392496)
+into customer_master into customer_master values(067981,1906,'Miss Vijay','Savant','85 Binoya Vila Cyber C Bhopal',09440275179,'GEN',479081)
+select * from dual;
+
+insert all 
+into customer_master into customer_master values(041784,1904,'Dr.Ekbal',' Viswanathan','4 Ajinkya Nagar Ahmedabad',916178038917,'GEN',418884)
+into customer_master into customer_master values(053296,1905,'Mr.Kailash','Sampath','53 Prerna Apartment Chandigarh',02946296932,'BPL',392496)
+select * from dual;
+
+
+
+
+

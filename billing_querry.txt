@@ -1,0 +1,52 @@
+view
+
+create or replace view mrm1 as 
+select meter_reading_master.k_no,meter_reading_master.reading_month as last_month, meter_reading_master.reading_date as last_date, meter_reading_master.reading as last_reading, customer_master.category, slab.rate
+from meter_reading_master, customer_master, slab
+where customer_master.k_no= meter_reading_master.k_no and customer_master.category=slab.category;
+
+.........................................................................................................
+
+ACCEPT BILLING_MONTH PROMPT 'ENTER BILLING MONTH DD-MON-YY :  '
+01-MAY-19
+ACCEPT DUE_DATE PROMPT 'ENTER DUE DATE DD-MON-YY :  '
+10-MAY-19
+
+
+Select meter_reading_master.k_no, category, LAST_MONTH, LAST_DATE, LAST_READING, meter_reading_master.reading_month as current_month, meter_reading_master.reading_date as current_date, meter_reading_master.reading as current_reading, (meter_reading_master.reading - LAST_READING) as consumption, rate, ((meter_reading_master.reading - LAST_READING)*rate) as amount_due_date, '&DUE_DATE' D_DATE, (((meter_reading_master.reading - LAST_READING)*rate) + 500) as amount_after_due_date
+from mrm1, meter_reading_master
+where meter_reading_master.k_no = mrm1.k_no and meter_reading_master.reading_month = '&&BILLING_MONTH' and mrm1.last_month = add_months('&BILLING_MONTH', -1);
+
+............................................................................
+
+create or replace view cust_ledger as
+	select k_no,
+	billing_date,
+	billing_month,
+	amount,
+	due_date,
+	amount_after_due_date,
+	payment_date,
+	amount_credited
+from (
+	select k_no, billing_date, billing_month, amount, due_date, amount_after_due_date, null payment_date, null amount_credited
+	from billing_master
+	union
+	select k_no, null billing_date, null billing_month, null amount, null due_date, null 			amount_after_due_date, payment_date, amount_credited
+	from cst_acts_master);
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ select table_name,owner from dba_tables where owner ='BHOOMI';
+
+	
+
+
+
+
+
+
+
+
+
+
+

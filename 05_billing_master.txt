@@ -1,0 +1,40 @@
+insert into billing_master
+(Select meter_reading_master.k_no,
+'10-may-19' billing_date,
+meter_reading_master.reading_month as billing_month, 
+(meter_reading_master.reading - LAST_READING) as consumption,
+((meter_reading_master.reading - LAST_READING)*rate) as amount,
+ '20-may-19' DUE_DATE, 
+(((meter_reading_master.reading - LAST_READING)*rate) + 500) as amount_after_due_date
+from mrm1, meter_reading_master
+where meter_reading_master.k_no = mrm1.k_no and meter_reading_master.reading_month = '01-apr-19'
+and mrm1.last_month = '01-mar-19');
+
+......................................................
+
+insert into billing_master
+(Select meter_reading_master.k_no,
+'10-jun-19' billing_date,
+meter_reading_master.reading_month as billing_month, 
+(meter_reading_master.reading - LAST_READING) as consumption,
+((meter_reading_master.reading - LAST_READING)*rate) as amount,
+ '20-jun-19' DUE_DATE, 
+(((meter_reading_master.reading - LAST_READING)*rate) + 500) as amount_after_due_date
+from mrm1, meter_reading_master
+where meter_reading_master.k_no = mrm1.k_no and meter_reading_master.reading_month = '01-may-19'
+and mrm1.last_month = '01-apr-19');
+
+...................................................
+
+
+insert into billing_master
+(Select meter_reading_master.k_no,
+'10-jul-19' billing_date,
+meter_reading_master.reading_month as billing_month, 
+(meter_reading_master.reading - LAST_READING) as consumption,
+((meter_reading_master.reading - LAST_READING)*rate) as amount,
+ '20-jul-19' DUE_DATE, 
+(((meter_reading_master.reading - LAST_READING)*rate) + 500) as amount_after_due_date
+from mrm1, meter_reading_master
+where meter_reading_master.k_no = mrm1.k_no and meter_reading_master.reading_month = '01-jun-19'
+and mrm1.last_month = '01-may-19');

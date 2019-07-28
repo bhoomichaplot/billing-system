@@ -1,0 +1,11 @@
+create table user1 (
+id int,
+password varchar(50)
+);
+
+
+insert all 
+into user1 values(1234,'bhoomi')
+into user1 values(5678,'iya')
+into user1 values(9012,'123')
+select * from dual;

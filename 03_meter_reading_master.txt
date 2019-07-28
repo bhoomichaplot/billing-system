@@ -1,0 +1,136 @@
+insert into meter_reading_master(select k_no,'10-mar-19',0,'01-mar-19' from customer_master);
+....................................................................
+insert all
+into meter_reading_master values(019387,'10-April-19',23823,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(023868,'08-April-19',5429,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(038987,'10-April-19',238920,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(041784,'10-April-19',5890,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(053296,'08-April-19',145,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(067981,'08-April-19',2573,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(075147,'10-April-19',13456,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(087134,'10-April-19',143,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(098016,'08-April-19',3186,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(102926,'10-April-19',5903,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(113549,'08-April-19',1456,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(124067,'08-April-19',50435,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(137272,'08-April-19',68053,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(149566,'10-April-19',1346,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(151346,'08-April-19',69032,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(161575,'08-April-19',390,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(170797,'10-April-19',4804,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(187745,'10-April-19',145,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(190511,'10-April-19',24567,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(209899,'10-April-19',3432,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(215751,'10-April-19',1326,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(224235,'10-April-19',2325,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(234174,'10-April-19',15678,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(240340,'08-April-19',374578,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(258047,'10-April-19',257,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(269028,'08-April-19',3975,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(278100,'08-April-19',3554,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(287964,'10-April-19',776534,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(292933,'08-April-19',4897,trunc(to_date('08-April-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(309982,'10-April-19',24687,trunc(to_date('10-April-19','dd-mon-yy') ,'month'))
+select * from dual;
+..............................................................................
+
+
+insert all
+into meter_reading_master values(019387,'10-May-19',53823,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(023868,'08-May-19',6429,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(038987,'10-May-19',338920,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(041784,'10-May-19',7890,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(053296,'08-May-19',345,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(067981,'08-May-19',3573,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(075147,'10-May-19',14456,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(087134,'10-May-19',343,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(098016,'08-May-19',4386,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(102926,'10-May-19',6903,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(113549,'08-May-19',2456,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(124067,'08-May-19',66435,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(137272,'08-May-19',77053,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(149566,'10-May-19',3346,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(151346,'08-May-19',71032,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(161575,'08-May-19',790,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(170797,'10-May-19',5004,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(187745,'10-May-19',345,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(190511,'10-May-19',44567,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(209899,'10-May-19',4432,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(215751,'10-May-19',2226,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(224235,'10-May-19',3225,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(234174,'10-May-19',20678,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(240340,'08-May-19',504578,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(258047,'10-May-19',657,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(269028,'08-May-19',5975,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(278100,'08-May-19',4554,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(287964,'10-May-19',986534,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(292933,'08-May-19',6897,trunc(to_date('08-May-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(309982,'10-May-19',26687,trunc(to_date('10-May-19','dd-mon-yy') ,'month'))
+select * from dual;
+...................................................
+insert all
+into meter_reading_master values(019387,'10-June-19',63823,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(023868,'08-June-19',8429,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(038987,'10-June-19',538920,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(041784,'10-June-19',8890,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(053296,'08-June-19',545,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(067981,'08-June-19',5573,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(075147,'10-June-19',24456,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(087134,'10-June-19',743,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(098016,'08-June-19',7386,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(102926,'10-June-19',8903,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(113549,'08-June-19',5456,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(124067,'08-June-19',86435,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(137272,'08-June-19',97053,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(149566,'10-June-19',5346,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(151346,'08-June-19',91032,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(161575,'08-June-19',990,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(170797,'10-June-19',7004,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(187745,'10-June-19',645,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(190511,'10-June-19',84567,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(209899,'10-June-19',6432,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(215751,'10-June-19',4226,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(224235,'10-June-19',5225,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(234174,'10-June-19',50678,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(240340,'08-June-19',704578,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(258047,'10-June-19',757,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(269028,'08-June-19',7975,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(278100,'08-June-19',6554,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(287964,'10-June-19',1006534,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(292933,'08-June-19',8897,trunc(to_date('08-June-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(309982,'10-June-19',66687,trunc(to_date('10-June-19','dd-mon-yy') ,'month'))
+select * from dual;......................................
+
+
+select reading,
+add_months(to_date(to_char(reading_month,'mmyyyy')||'01','mmyyyydd'),0) from
+meter_reading_master where k_no=309982 ;
+
+
+
+
+insert all
+into meter_reading_master values(309982,'10-march-19',13823,trunc(to_date('10-march-19','dd-mon-yy') ,'month'))
+into meter_reading_master values(309982,'10-feb-19',3823,trunc(to_date('10-feb-19','dd-mon-yy') ,'month'))
+select * from dual;
+
+
+
+SQL> create or replace procedure p1 (k1 numer)
+  2  as
+  3  a1 number;
+  4  billmonth number;
+  5  begin
+  6  select reading into :b1 from meter_reading_master where k_no=309982 and .
+  7  select to_char(sysdate,'YYYYMM') into :bill1 from dual;
+  8  c1:=b1-a1;
+  9  d1:=c1*amount_units;
+ 10  (select reading from meter_reading_master where k_no = 309982 and to_char(reading_date,'YYYYMM') = ('201905'))  as
+
+
+
+ 
+
+
+
+

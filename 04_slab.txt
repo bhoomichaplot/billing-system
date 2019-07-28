@@ -1,0 +1,21 @@
+create table slab(
+category varchar(5),
+sanction_laod int,
+security_deposit int,
+rate int,
+primary key (category)
+);
+
+insert all
+into slab values('BPL',1,0,3.50)
+into slab values('GEN',1,5000,6.00)
+into slab values('SIP',18.6,25000,6.50)
+into slab values('MIP',112,50000,7.00)
+into slab values('HT',150,100000,7.50)
+select * from dual;
+
+
+
+ALTER TABLe customer_master
+ADD CONSTRAINT c_m_fk
+FOREIGN KEY (category) REFERENCES slab(category); 
